@@ -14,6 +14,9 @@ public class MainActivity extends AppCompatActivity {
         ListView studentListView = (ListView) findViewById(R.id.student_listview);
 
         StudentAdapter adapter = new StudentAdapter(getApplicationContext());
+
+
+
         studentListView.setAdapter(adapter);
 
 
